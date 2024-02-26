@@ -1,0 +1,147 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+}
+
+
+.Banner {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(119, 119, 144);
+    border-bottom: double 10px black;
+    box-shadow: 0 10px 10px 20px silver;
+}
+
+
+.TextShadow {
+    text-shadow: 0 1px 10px whitesmoke;
+}
+
+body {
+    background-color: #F5F2E8;
+    width: 100%;
+    height: 100%;
+}
+
+.aRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-top: 5rem;
+    justify-content: end;
+    width: 100%;
+    background-color: #F5F2E8;
+}
+
+
+
+.BuildingCanvas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+    min-width: rem;
+    height: 25rem;
+    background-color: #F9F8F4;
+    border: solid 0.3px black;
+    box-shadow: 0 1px 4px 2px black;
+    z-index: 0;
+}
+
+
+#BigBlock {
+    position: relative;
+    width: 6rem;
+    height: 4rem;
+    background-color: #847064;
+    border: solid 2px black;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 2px black;
+    z-index: 1;
+}
+
+
+#MediumBlock {
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    background-color: #ff6403;
+    border: solid 2px black;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 2px black;
+    z-index: 1;
+}
+
+
+#SmallBlock {
+    position: relative;
+    width: 2rem;
+    height: 3rem;
+    background-color: #89e488;
+    border: solid 2px black;
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px 2px black;
+    z-index: 1;
+}
+
+
+.BottomMargin {
+    margin-bottom: 3rem;
+}
+
+
+.StickyNote {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 27%;
+    min-width: 15rem;
+    height: 10rem;
+    background: #FFD55E;
+    border: solid 0.16rem black;
+    box-shadow: 0 5px 10px 3px black;
+}
+
+.InstructionText {
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+    text-align: start;
+    line-height: 2;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.Tack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8%;
+    min-width: 2rem;
+    height: 2rem;
+    min-height: 2rem;
+    background-color: crimson;
+    border-radius: 50%;
+    border: solid 2px white;
+    box-shadow: 0 4px 15px 4px grey;
+}
+
+.InnerTack {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: red;
+    border: solid 0.5px black;
+}
+
+footer {
+    height: 1rem;
+    text-align: center;
+    background-color: #F9F8F4;
+}
